@@ -1,0 +1,2567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest eeb176f5ce9ff40aec05c733da4fe91d?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Konstantin Rybakov</author>
+			<company/>
+			<keywords/>
+			<revisedBy>Пользователь</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>2</revision>
+			<documentID>92AE4D29-4306-41D5-B24A-FCD3784480F9</documentID>
+			<versionID>A9F134CB-CC74-436C-BFC8-392DF21E6F06</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="9" orientation="portrait" print-single-page-width="false" page-width="594.75" page-height="842.25">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="cm"/>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="none" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="142" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="134" left="12" top="20.25" width="365.25" height="120" align-x="12" align-y="30" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">This is the supplement to the paper by <i>Konstantin Rybakov</i>
+					<inlineAttr font-style="normal"> (rkoffice@mail.ru)</inlineAttr>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">"<b>Spectral Representation and Simulation of Fractional Brownian Motion</b>"</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">(Computation 2025, 13(1), 19. https://doi.org/10.3390/computation13010019)</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+					<b>Abstract.</b> The paper gives a new representation for the fractional Brownian motion<br/>that can be applied to simulate this self-similar random process in continuous time.<br/>Such a representation is based on the spectral form of mathematical description and<br/>the spectral method. The Legendre polynomials are used as the orthonormal basis.<br/>The paper contains all the necessary algorithms and their theoretical foundation, <br/>as well as the results of numerical experiments.</p>
+			</text>
+		</region>
+		<region region-id="30" left="12" top="170.25" width="397.5" height="12" align-x="39.75" align-y="180" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Time horizon</p>
+			</text>
+		</region>
+		<region region-id="31" left="12" top="195" width="25.5" height="12.75" align-x="24.75" align-y="204" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">T</ml:id>
+					<ml:real>1</ml:real>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="34" left="12" top="218.25" width="397.5" height="12" align-x="39.75" align-y="228" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Legendre polynomials (recurrence relations)</p>
+			</text>
+		</region>
+		<region region-id="2" left="12" top="249" width="327.75" height="44.25" align-x="47.25" align-y="258" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">_p</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:id xml:space="preserve">t</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:ifThen>
+							<ml:apply>
+								<ml:lessOrEqual/>
+								<ml:id xml:space="preserve">i</ml:id>
+								<ml:real>0</ml:real>
+							</ml:apply>
+							<ml:real>1</ml:real>
+						</ml:ifThen>
+						<ml:otherwise>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:id xml:space="preserve">i</ml:id>
+								</ml:apply>
+								<ml:parens>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:parens>
+													<ml:apply>
+														<ml:minus/>
+														<ml:apply>
+															<ml:mult style="auto-select"/>
+															<ml:real>2</ml:real>
+															<ml:id xml:space="preserve">i</ml:id>
+														</ml:apply>
+														<ml:real>1</ml:real>
+													</ml:apply>
+												</ml:parens>
+												<ml:parens>
+													<ml:apply>
+														<ml:minus/>
+														<ml:apply>
+															<ml:div/>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real>2</ml:real>
+																<ml:id xml:space="preserve">t</ml:id>
+															</ml:apply>
+															<ml:id xml:space="preserve">T</ml:id>
+														</ml:apply>
+														<ml:real>1</ml:real>
+													</ml:apply>
+												</ml:parens>
+											</ml:apply>
+											<ml:apply>
+												<ml:id xml:space="preserve">_p</ml:id>
+												<ml:sequence>
+													<ml:apply>
+														<ml:minus/>
+														<ml:id xml:space="preserve">i</ml:id>
+														<ml:real>1</ml:real>
+													</ml:apply>
+													<ml:id xml:space="preserve">t</ml:id>
+												</ml:sequence>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:parens>
+												<ml:apply>
+													<ml:minus/>
+													<ml:id xml:space="preserve">i</ml:id>
+													<ml:real>1</ml:real>
+												</ml:apply>
+											</ml:parens>
+											<ml:apply>
+												<ml:id xml:space="preserve">_p</ml:id>
+												<ml:sequence>
+													<ml:apply>
+														<ml:minus/>
+														<ml:id xml:space="preserve">i</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+													<ml:id xml:space="preserve">t</ml:id>
+												</ml:sequence>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:parens>
+							</ml:apply>
+						</ml:otherwise>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="35" left="12" top="306.75" width="102.75" height="29.25" align-x="42" align-y="324" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">p</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:id xml:space="preserve">t</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult/>
+						<ml:apply>
+							<ml:sqrt/>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:real>2</ml:real>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:real>1</ml:real>
+								</ml:apply>
+								<ml:id xml:space="preserve">T</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:apply>
+							<ml:id xml:space="preserve">_p</ml:id>
+							<ml:sequence>
+								<ml:id xml:space="preserve">i</ml:id>
+								<ml:id xml:space="preserve">t</ml:id>
+							</ml:sequence>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="41" left="12" top="351" width="302.25" height="163.5" align-x="48" align-y="360" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">pt</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">t</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:for>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:real>0</ml:real>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:range>
+							<ml:program>
+								<ml:ifThen>
+									<ml:apply>
+										<ml:equal/>
+										<ml:id xml:space="preserve">i</ml:id>
+										<ml:real>0</ml:real>
+									</ml:apply>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:real>0</ml:real>
+										</ml:apply>
+										<ml:real>1</ml:real>
+									</ml:localDefine>
+								</ml:ifThen>
+								<ml:ifThen>
+									<ml:apply>
+										<ml:equal/>
+										<ml:id xml:space="preserve">i</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:real>1</ml:real>
+										</ml:apply>
+										<ml:apply>
+											<ml:minus/>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real>2</ml:real>
+													<ml:id xml:space="preserve">t</ml:id>
+												</ml:apply>
+												<ml:id xml:space="preserve">T</ml:id>
+											</ml:apply>
+											<ml:real>1</ml:real>
+										</ml:apply>
+									</ml:localDefine>
+								</ml:ifThen>
+								<ml:ifThen>
+									<ml:apply>
+										<ml:greaterThan/>
+										<ml:id xml:space="preserve">i</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:id xml:space="preserve">i</ml:id>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:div/>
+												<ml:real>1</ml:real>
+												<ml:id xml:space="preserve">i</ml:id>
+											</ml:apply>
+											<ml:parens>
+												<ml:apply>
+													<ml:minus/>
+													<ml:apply>
+														<ml:mult/>
+														<ml:apply>
+															<ml:mult/>
+															<ml:parens>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:apply>
+																		<ml:mult style="auto-select"/>
+																		<ml:real>2</ml:real>
+																		<ml:id xml:space="preserve">i</ml:id>
+																	</ml:apply>
+																	<ml:real>1</ml:real>
+																</ml:apply>
+															</ml:parens>
+															<ml:parens>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:apply>
+																		<ml:div/>
+																		<ml:apply>
+																			<ml:mult style="auto-select"/>
+																			<ml:real>2</ml:real>
+																			<ml:id xml:space="preserve">t</ml:id>
+																		</ml:apply>
+																		<ml:id xml:space="preserve">T</ml:id>
+																	</ml:apply>
+																	<ml:real>1</ml:real>
+																</ml:apply>
+															</ml:parens>
+														</ml:apply>
+														<ml:apply>
+															<ml:indexer/>
+															<ml:id xml:space="preserve">c</ml:id>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">i</ml:id>
+																<ml:real>1</ml:real>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+													<ml:apply>
+														<ml:mult/>
+														<ml:parens>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">i</ml:id>
+																<ml:real>1</ml:real>
+															</ml:apply>
+														</ml:parens>
+														<ml:apply>
+															<ml:indexer/>
+															<ml:id xml:space="preserve">c</ml:id>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">i</ml:id>
+																<ml:real>2</ml:real>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:parens>
+										</ml:apply>
+									</ml:localDefine>
+								</ml:ifThen>
+							</ml:program>
+						</ml:for>
+						<ml:for>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:real>0</ml:real>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:range>
+							<ml:localDefine>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">c</ml:id>
+									<ml:id xml:space="preserve">i</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:sqrt/>
+										<ml:apply>
+											<ml:div/>
+											<ml:apply>
+												<ml:plus/>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real>2</ml:real>
+													<ml:id xml:space="preserve">i</ml:id>
+												</ml:apply>
+												<ml:real>1</ml:real>
+											</ml:apply>
+											<ml:id xml:space="preserve">T</ml:id>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">c</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:localDefine>
+						</ml:for>
+						<ml:id xml:space="preserve">c</ml:id>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="63" left="12" top="530.25" width="397.5" height="12" align-x="39.75" align-y="540" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the power function</p>
+			</text>
+		</region>
+		<region region-id="64" left="12" top="560.25" width="223.5" height="93.75" align-x="66" align-y="576" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spFtα</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">α</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:apply>
+								<ml:pow/>
+								<ml:id xml:space="preserve">T</ml:id>
+								<ml:id xml:space="preserve">α</ml:id>
+							</ml:apply>
+							<ml:apply>
+								<ml:sqrt/>
+								<ml:id xml:space="preserve">T</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:program>
+							<ml:localDefine>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">c</ml:id>
+									<ml:real>0</ml:real>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:apply>
+										<ml:plus/>
+										<ml:id xml:space="preserve">α</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+								</ml:apply>
+							</ml:localDefine>
+							<ml:for>
+								<ml:id xml:space="preserve">i</ml:id>
+								<ml:range>
+									<ml:real>1</ml:real>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+								</ml:range>
+								<ml:localDefine>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">c</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:sqrt/>
+												<ml:apply>
+													<ml:div/>
+													<ml:apply>
+														<ml:plus/>
+														<ml:apply>
+															<ml:mult style="auto-select"/>
+															<ml:real font="0">2</ml:real>
+															<ml:id xml:space="preserve">i</ml:id>
+														</ml:apply>
+														<ml:real>1</ml:real>
+													</ml:apply>
+													<ml:apply>
+														<ml:minus/>
+														<ml:apply>
+															<ml:mult style="auto-select"/>
+															<ml:real font="0">2</ml:real>
+															<ml:id xml:space="preserve">i</ml:id>
+														</ml:apply>
+														<ml:real>1</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:plus/>
+													<ml:apply>
+														<ml:minus/>
+														<ml:id xml:space="preserve">α</ml:id>
+														<ml:id xml:space="preserve">i</ml:id>
+													</ml:apply>
+													<ml:real>1</ml:real>
+												</ml:apply>
+												<ml:apply>
+													<ml:plus/>
+													<ml:apply>
+														<ml:plus/>
+														<ml:id xml:space="preserve">α</ml:id>
+														<ml:id xml:space="preserve">i</ml:id>
+													</ml:apply>
+													<ml:real>1</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:apply>
+												<ml:minus/>
+												<ml:id xml:space="preserve">i</ml:id>
+												<ml:real>1</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:localDefine>
+							</ml:for>
+							<ml:id xml:space="preserve">c</ml:id>
+						</ml:program>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="78" left="300" top="561" width="42.75" height="18.75" align-x="325.5" align-y="576" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:apply xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:equal/>
+					<ml:apply>
+						<ml:id xml:space="preserve">fα</ml:id>
+						<ml:id xml:space="preserve">t</ml:id>
+					</ml:apply>
+					<ml:apply>
+						<ml:pow/>
+						<ml:id xml:space="preserve">t</ml:id>
+						<ml:id xml:space="preserve">α</ml:id>
+					</ml:apply>
+				</ml:apply>
+			</math>
+		</region>
+		<region region-id="71" left="12" top="673.5" width="135.75" height="74.25" align-x="51" align-y="684" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spF1</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:apply>
+							<ml:sqrt/>
+							<ml:id xml:space="preserve">T</ml:id>
+						</ml:apply>
+						<ml:program>
+							<ml:localDefine>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">c</ml:id>
+									<ml:real>0</ml:real>
+								</ml:apply>
+								<ml:real>1</ml:real>
+							</ml:localDefine>
+							<ml:for>
+								<ml:id xml:space="preserve">i</ml:id>
+								<ml:range>
+									<ml:real>1</ml:real>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+								</ml:range>
+								<ml:localDefine>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">c</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:real>0</ml:real>
+								</ml:localDefine>
+							</ml:for>
+							<ml:id xml:space="preserve">c</ml:id>
+						</ml:program>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="81" left="300" top="675" width="36" height="12.75" align-x="324" align-y="684" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:apply xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:equal/>
+					<ml:apply>
+						<ml:id xml:space="preserve">f0</ml:id>
+						<ml:id xml:space="preserve">t</ml:id>
+					</ml:apply>
+					<ml:real>1</ml:real>
+				</ml:apply>
+			</math>
+		</region>
+		<region region-id="65" left="12" top="764.25" width="397.5" height="12" align-x="39.75" align-y="774" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the multiplication operator with power function as a multiplier</p>
+			</text>
+		</region>
+		<region region-id="66" left="12" top="789" width="415.5" height="164.25" align-x="68.25" align-y="798" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spAtα</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">α</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">F</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spFtα</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:id xml:space="preserve">α</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:for>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:real font="0">0</ml:real>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:range>
+							<ml:for>
+								<ml:id xml:space="preserve">j</ml:id>
+								<ml:range>
+									<ml:real>0</ml:real>
+									<ml:id xml:space="preserve">i</ml:id>
+								</ml:range>
+								<ml:program>
+									<ml:localDefine>
+										<ml:id xml:space="preserve">g</ml:id>
+										<ml:apply>
+											<ml:summation/>
+											<ml:lambda>
+												<ml:boundVars>
+													<ml:id xml:space="preserve">k</ml:id>
+												</ml:boundVars>
+												<ml:parens>
+													<ml:apply>
+														<ml:mult/>
+														<ml:apply>
+															<ml:pow/>
+															<ml:parens>
+																<ml:real>-1</ml:real>
+															</ml:parens>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">j</ml:id>
+																<ml:id xml:space="preserve">k</ml:id>
+															</ml:apply>
+														</ml:apply>
+														<ml:apply>
+															<ml:id xml:space="preserve">if</ml:id>
+															<ml:sequence>
+																<ml:apply>
+																	<ml:greaterThan/>
+																	<ml:id xml:space="preserve">k</ml:id>
+																	<ml:real>0</ml:real>
+																</ml:apply>
+																<ml:apply>
+																	<ml:product/>
+																	<ml:lambda>
+																		<ml:boundVars>
+																			<ml:id xml:space="preserve">m</ml:id>
+																		</ml:boundVars>
+																		<ml:parens>
+																			<ml:apply>
+																				<ml:mult/>
+																				<ml:apply>
+																					<ml:mult/>
+																					<ml:apply>
+																						<ml:pow/>
+																						<ml:parens>
+																							<ml:apply>
+																								<ml:div/>
+																								<ml:apply>
+																									<ml:plus/>
+																									<ml:id xml:space="preserve">α</ml:id>
+																									<ml:id xml:space="preserve">m</ml:id>
+																								</ml:apply>
+																								<ml:id xml:space="preserve">m</ml:id>
+																							</ml:apply>
+																						</ml:parens>
+																						<ml:real>2</ml:real>
+																					</ml:apply>
+																					<ml:apply>
+																						<ml:div/>
+																						<ml:apply>
+																							<ml:plus/>
+																							<ml:apply>
+																								<ml:minus/>
+																								<ml:id xml:space="preserve">j</ml:id>
+																								<ml:id xml:space="preserve">m</ml:id>
+																							</ml:apply>
+																							<ml:real>1</ml:real>
+																						</ml:apply>
+																						<ml:apply>
+																							<ml:minus/>
+																							<ml:apply>
+																								<ml:plus/>
+																								<ml:id xml:space="preserve">α</ml:id>
+																								<ml:id xml:space="preserve">m</ml:id>
+																							</ml:apply>
+																							<ml:id xml:space="preserve">i</ml:id>
+																						</ml:apply>
+																					</ml:apply>
+																				</ml:apply>
+																				<ml:apply>
+																					<ml:div/>
+																					<ml:apply>
+																						<ml:plus/>
+																						<ml:id xml:space="preserve">j</ml:id>
+																						<ml:id xml:space="preserve">m</ml:id>
+																					</ml:apply>
+																					<ml:apply>
+																						<ml:plus/>
+																						<ml:apply>
+																							<ml:plus/>
+																							<ml:apply>
+																								<ml:plus/>
+																								<ml:id xml:space="preserve">α</ml:id>
+																								<ml:id xml:space="preserve">m</ml:id>
+																							</ml:apply>
+																							<ml:id xml:space="preserve">i</ml:id>
+																						</ml:apply>
+																						<ml:real>1</ml:real>
+																					</ml:apply>
+																				</ml:apply>
+																			</ml:apply>
+																		</ml:parens>
+																	</ml:lambda>
+																	<ml:bounds>
+																		<ml:real>1</ml:real>
+																		<ml:id xml:space="preserve">k</ml:id>
+																	</ml:bounds>
+																</ml:apply>
+																<ml:real>1</ml:real>
+															</ml:sequence>
+														</ml:apply>
+													</ml:apply>
+												</ml:parens>
+											</ml:lambda>
+											<ml:bounds>
+												<ml:real>0</ml:real>
+												<ml:id xml:space="preserve">j</ml:id>
+											</ml:bounds>
+										</ml:apply>
+									</ml:localDefine>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">i</ml:id>
+												<ml:id xml:space="preserve">j</ml:id>
+											</ml:sequence>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:apply>
+													<ml:sqrt/>
+													<ml:apply>
+														<ml:div/>
+														<ml:apply>
+															<ml:plus/>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real font="0">2</ml:real>
+																<ml:id xml:space="preserve">j</ml:id>
+															</ml:apply>
+															<ml:real>1</ml:real>
+														</ml:apply>
+														<ml:id xml:space="preserve">T</ml:id>
+													</ml:apply>
+												</ml:apply>
+												<ml:id xml:space="preserve">g</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">F</ml:id>
+												<ml:id xml:space="preserve">i</ml:id>
+											</ml:apply>
+										</ml:apply>
+									</ml:localDefine>
+									<ml:ifThen>
+										<ml:apply>
+											<ml:notEqual/>
+											<ml:id xml:space="preserve">i</ml:id>
+											<ml:id xml:space="preserve">j</ml:id>
+										</ml:apply>
+										<ml:localDefine>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">c</ml:id>
+												<ml:sequence>
+													<ml:id xml:space="preserve">j</ml:id>
+													<ml:id xml:space="preserve">i</ml:id>
+												</ml:sequence>
+											</ml:apply>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">c</ml:id>
+												<ml:sequence>
+													<ml:id xml:space="preserve">i</ml:id>
+													<ml:id xml:space="preserve">j</ml:id>
+												</ml:sequence>
+											</ml:apply>
+										</ml:localDefine>
+									</ml:ifThen>
+								</ml:program>
+							</ml:for>
+						</ml:for>
+						<ml:id xml:space="preserve">c</ml:id>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="84" left="12" top="968.25" width="397.5" height="12" align-x="39.75" align-y="978" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the fractional integration operator</p>
+			</text>
+		</region>
+		<region region-id="85" left="12" top="999" width="438.75" height="170.25" align-x="61.5" align-y="1008" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spID</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">β</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">F</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spFtα</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:id xml:space="preserve">β</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:for>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:real font="0">0</ml:real>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:range>
+							<ml:for>
+								<ml:id xml:space="preserve">j</ml:id>
+								<ml:range>
+									<ml:real>0</ml:real>
+									<ml:id xml:space="preserve">i</ml:id>
+								</ml:range>
+								<ml:program>
+									<ml:localDefine>
+										<ml:id xml:space="preserve">g</ml:id>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:div/>
+												<ml:real>1</ml:real>
+												<ml:apply>
+													<ml:id xml:space="preserve">Γ</ml:id>
+													<ml:apply>
+														<ml:plus/>
+														<ml:id xml:space="preserve">β</ml:id>
+														<ml:real>1</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:apply>
+												<ml:summation/>
+												<ml:lambda>
+													<ml:boundVars>
+														<ml:id xml:space="preserve">k</ml:id>
+													</ml:boundVars>
+													<ml:parens>
+														<ml:apply>
+															<ml:mult/>
+															<ml:apply>
+																<ml:pow/>
+																<ml:parens>
+																	<ml:real>-1</ml:real>
+																</ml:parens>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:id xml:space="preserve">j</ml:id>
+																	<ml:id xml:space="preserve">k</ml:id>
+																</ml:apply>
+															</ml:apply>
+															<ml:apply>
+																<ml:id xml:space="preserve">if</ml:id>
+																<ml:sequence>
+																	<ml:apply>
+																		<ml:greaterThan/>
+																		<ml:id xml:space="preserve">k</ml:id>
+																		<ml:real>0</ml:real>
+																	</ml:apply>
+																	<ml:apply>
+																		<ml:product/>
+																		<ml:lambda>
+																			<ml:boundVars>
+																				<ml:id xml:space="preserve">m</ml:id>
+																			</ml:boundVars>
+																			<ml:parens>
+																				<ml:apply>
+																					<ml:mult/>
+																					<ml:apply>
+																						<ml:mult/>
+																						<ml:apply>
+																							<ml:div/>
+																							<ml:apply>
+																								<ml:plus/>
+																								<ml:id xml:space="preserve">β</ml:id>
+																								<ml:id xml:space="preserve">m</ml:id>
+																							</ml:apply>
+																							<ml:id xml:space="preserve">m</ml:id>
+																						</ml:apply>
+																						<ml:apply>
+																							<ml:div/>
+																							<ml:apply>
+																								<ml:plus/>
+																								<ml:apply>
+																									<ml:minus/>
+																									<ml:id xml:space="preserve">j</ml:id>
+																									<ml:id xml:space="preserve">m</ml:id>
+																								</ml:apply>
+																								<ml:real>1</ml:real>
+																							</ml:apply>
+																							<ml:apply>
+																								<ml:minus/>
+																								<ml:apply>
+																									<ml:plus/>
+																									<ml:id xml:space="preserve">β</ml:id>
+																									<ml:id xml:space="preserve">m</ml:id>
+																								</ml:apply>
+																								<ml:id xml:space="preserve">i</ml:id>
+																							</ml:apply>
+																						</ml:apply>
+																					</ml:apply>
+																					<ml:apply>
+																						<ml:div/>
+																						<ml:apply>
+																							<ml:plus/>
+																							<ml:id xml:space="preserve">j</ml:id>
+																							<ml:id xml:space="preserve">m</ml:id>
+																						</ml:apply>
+																						<ml:apply>
+																							<ml:plus/>
+																							<ml:apply>
+																								<ml:plus/>
+																								<ml:apply>
+																									<ml:plus/>
+																									<ml:id xml:space="preserve">β</ml:id>
+																									<ml:id xml:space="preserve">m</ml:id>
+																								</ml:apply>
+																								<ml:id xml:space="preserve">i</ml:id>
+																							</ml:apply>
+																							<ml:real>1</ml:real>
+																						</ml:apply>
+																					</ml:apply>
+																				</ml:apply>
+																			</ml:parens>
+																		</ml:lambda>
+																		<ml:bounds>
+																			<ml:real>1</ml:real>
+																			<ml:id xml:space="preserve">k</ml:id>
+																		</ml:bounds>
+																	</ml:apply>
+																	<ml:real>1</ml:real>
+																</ml:sequence>
+															</ml:apply>
+														</ml:apply>
+													</ml:parens>
+												</ml:lambda>
+												<ml:bounds>
+													<ml:real>0</ml:real>
+													<ml:id xml:space="preserve">j</ml:id>
+												</ml:bounds>
+											</ml:apply>
+										</ml:apply>
+									</ml:localDefine>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">i</ml:id>
+												<ml:id xml:space="preserve">j</ml:id>
+											</ml:sequence>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:apply>
+													<ml:sqrt/>
+													<ml:apply>
+														<ml:div/>
+														<ml:apply>
+															<ml:plus/>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real font="0">2</ml:real>
+																<ml:id xml:space="preserve">j</ml:id>
+															</ml:apply>
+															<ml:real>1</ml:real>
+														</ml:apply>
+														<ml:id xml:space="preserve">T</ml:id>
+													</ml:apply>
+												</ml:apply>
+												<ml:id xml:space="preserve">g</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">F</ml:id>
+												<ml:id xml:space="preserve">i</ml:id>
+											</ml:apply>
+										</ml:apply>
+									</ml:localDefine>
+									<ml:ifThen>
+										<ml:apply>
+											<ml:notEqual/>
+											<ml:id xml:space="preserve">i</ml:id>
+											<ml:id xml:space="preserve">j</ml:id>
+										</ml:apply>
+										<ml:localDefine>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">c</ml:id>
+												<ml:sequence>
+													<ml:id xml:space="preserve">j</ml:id>
+													<ml:id xml:space="preserve">i</ml:id>
+												</ml:sequence>
+											</ml:apply>
+											<ml:apply>
+												<ml:mult/>
+												<ml:apply>
+													<ml:pow/>
+													<ml:parens>
+														<ml:real>-1</ml:real>
+													</ml:parens>
+													<ml:apply>
+														<ml:plus/>
+														<ml:id xml:space="preserve">i</ml:id>
+														<ml:id xml:space="preserve">j</ml:id>
+													</ml:apply>
+												</ml:apply>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">c</ml:id>
+													<ml:sequence>
+														<ml:id xml:space="preserve">i</ml:id>
+														<ml:id xml:space="preserve">j</ml:id>
+													</ml:sequence>
+												</ml:apply>
+											</ml:apply>
+										</ml:localDefine>
+									</ml:ifThen>
+								</ml:program>
+							</ml:for>
+						</ml:for>
+						<ml:id xml:space="preserve">c</ml:id>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="105" left="12" top="1190.25" width="397.5" height="12" align-x="39.75" align-y="1200" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the first- and second-order integration operators</p>
+			</text>
+		</region>
+		<region region-id="110" left="12" top="1214.25" width="180.75" height="121.5" align-x="44.25" align-y="1230" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spI</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:id xml:space="preserve">T</ml:id>
+						<ml:program>
+							<ml:localDefine>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">c</ml:id>
+									<ml:sequence>
+										<ml:real>0</ml:real>
+										<ml:real>0</ml:real>
+									</ml:sequence>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:localDefine>
+							<ml:for>
+								<ml:id xml:space="preserve">m</ml:id>
+								<ml:range>
+									<ml:real>1</ml:real>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+								</ml:range>
+								<ml:program>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:sequence>
+												<ml:apply>
+													<ml:minus/>
+													<ml:id xml:space="preserve">m</ml:id>
+													<ml:real>1</ml:real>
+												</ml:apply>
+												<ml:id xml:space="preserve">m</ml:id>
+											</ml:sequence>
+										</ml:apply>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:div/>
+												<ml:real>1</ml:real>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real>2</ml:real>
+													<ml:apply>
+														<ml:sqrt/>
+														<ml:apply>
+															<ml:minus/>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real>4</ml:real>
+																<ml:apply>
+																	<ml:pow/>
+																	<ml:id xml:space="preserve">m</ml:id>
+																	<ml:real>2</ml:real>
+																</ml:apply>
+															</ml:apply>
+															<ml:real>1</ml:real>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:localDefine>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">m</ml:id>
+												<ml:apply>
+													<ml:minus/>
+													<ml:id xml:space="preserve">m</ml:id>
+													<ml:real>1</ml:real>
+												</ml:apply>
+											</ml:sequence>
+										</ml:apply>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">c</ml:id>
+												<ml:sequence>
+													<ml:apply>
+														<ml:minus/>
+														<ml:id xml:space="preserve">m</ml:id>
+														<ml:real>1</ml:real>
+													</ml:apply>
+													<ml:id xml:space="preserve">m</ml:id>
+												</ml:sequence>
+											</ml:apply>
+										</ml:apply>
+									</ml:localDefine>
+								</ml:program>
+							</ml:for>
+							<ml:id xml:space="preserve">c</ml:id>
+						</ml:program>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="112" left="12" top="1347" width="287.25" height="246.75" align-x="48.75" align-y="1362" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spI2</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:apply>
+							<ml:pow/>
+							<ml:id xml:space="preserve">T</ml:id>
+							<ml:real>2</ml:real>
+						</ml:apply>
+						<ml:program>
+							<ml:for>
+								<ml:id xml:space="preserve">m</ml:id>
+								<ml:range>
+									<ml:real>0</ml:real>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:real>1</ml:real>
+									</ml:apply>
+								</ml:range>
+								<ml:program>
+									<ml:localDefine>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">c</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">m</ml:id>
+												<ml:id xml:space="preserve">m</ml:id>
+											</ml:sequence>
+										</ml:apply>
+										<ml:program>
+											<ml:ifThen>
+												<ml:apply>
+													<ml:equal/>
+													<ml:id xml:space="preserve">m</ml:id>
+													<ml:real>0</ml:real>
+												</ml:apply>
+												<ml:apply>
+													<ml:div/>
+													<ml:real>1</ml:real>
+													<ml:real>6</ml:real>
+												</ml:apply>
+											</ml:ifThen>
+											<ml:otherwise>
+												<ml:apply>
+													<ml:neg/>
+													<ml:apply>
+														<ml:div/>
+														<ml:real>1</ml:real>
+														<ml:apply>
+															<ml:mult style="auto-select"/>
+															<ml:real>2</ml:real>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:parens>
+																	<ml:apply>
+																		<ml:minus/>
+																		<ml:apply>
+																			<ml:mult style="auto-select"/>
+																			<ml:real>2</ml:real>
+																			<ml:id xml:space="preserve">m</ml:id>
+																		</ml:apply>
+																		<ml:real>1</ml:real>
+																	</ml:apply>
+																</ml:parens>
+																<ml:parens>
+																	<ml:apply>
+																		<ml:plus/>
+																		<ml:apply>
+																			<ml:mult style="auto-select"/>
+																			<ml:real>2</ml:real>
+																			<ml:id xml:space="preserve">m</ml:id>
+																		</ml:apply>
+																		<ml:real>3</ml:real>
+																	</ml:apply>
+																</ml:parens>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:otherwise>
+										</ml:program>
+									</ml:localDefine>
+									<ml:ifThen>
+										<ml:apply>
+											<ml:greaterThan/>
+											<ml:id xml:space="preserve">m</ml:id>
+											<ml:real>0</ml:real>
+										</ml:apply>
+										<ml:program>
+											<ml:ifThen>
+												<ml:apply>
+													<ml:equal/>
+													<ml:id xml:space="preserve">m</ml:id>
+													<ml:real>1</ml:real>
+												</ml:apply>
+												<ml:localDefine>
+													<ml:apply>
+														<ml:indexer/>
+														<ml:id xml:space="preserve">c</ml:id>
+														<ml:sequence>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">m</ml:id>
+																<ml:real>1</ml:real>
+															</ml:apply>
+															<ml:id xml:space="preserve">m</ml:id>
+														</ml:sequence>
+													</ml:apply>
+													<ml:apply>
+														<ml:neg/>
+														<ml:apply>
+															<ml:div/>
+															<ml:real>1</ml:real>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real>4</ml:real>
+																<ml:apply>
+																	<ml:sqrt/>
+																	<ml:real>3</ml:real>
+																</ml:apply>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:localDefine>
+											</ml:ifThen>
+											<ml:localDefine>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">c</ml:id>
+													<ml:sequence>
+														<ml:id xml:space="preserve">m</ml:id>
+														<ml:apply>
+															<ml:minus/>
+															<ml:id xml:space="preserve">m</ml:id>
+															<ml:real>1</ml:real>
+														</ml:apply>
+													</ml:sequence>
+												</ml:apply>
+												<ml:apply>
+													<ml:neg/>
+													<ml:apply>
+														<ml:indexer/>
+														<ml:id xml:space="preserve">c</ml:id>
+														<ml:sequence>
+															<ml:apply>
+																<ml:minus/>
+																<ml:id xml:space="preserve">m</ml:id>
+																<ml:real>1</ml:real>
+															</ml:apply>
+															<ml:id xml:space="preserve">m</ml:id>
+														</ml:sequence>
+													</ml:apply>
+												</ml:apply>
+											</ml:localDefine>
+										</ml:program>
+									</ml:ifThen>
+									<ml:ifThen>
+										<ml:apply>
+											<ml:greaterThan/>
+											<ml:id xml:space="preserve">m</ml:id>
+											<ml:real>1</ml:real>
+										</ml:apply>
+										<ml:program>
+											<ml:localDefine>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">c</ml:id>
+													<ml:sequence>
+														<ml:apply>
+															<ml:minus/>
+															<ml:id xml:space="preserve">m</ml:id>
+															<ml:real>2</ml:real>
+														</ml:apply>
+														<ml:id xml:space="preserve">m</ml:id>
+													</ml:sequence>
+												</ml:apply>
+												<ml:apply>
+													<ml:div/>
+													<ml:real>1</ml:real>
+													<ml:apply>
+														<ml:mult style="auto-select"/>
+														<ml:real>4</ml:real>
+														<ml:apply>
+															<ml:sqrt/>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:parens>
+																	<ml:apply>
+																		<ml:minus/>
+																		<ml:apply>
+																			<ml:mult style="auto-select"/>
+																			<ml:real>4</ml:real>
+																			<ml:apply>
+																				<ml:pow/>
+																				<ml:parens>
+																					<ml:apply>
+																						<ml:minus/>
+																						<ml:id xml:space="preserve">m</ml:id>
+																						<ml:real>1</ml:real>
+																					</ml:apply>
+																				</ml:parens>
+																				<ml:real>2</ml:real>
+																			</ml:apply>
+																		</ml:apply>
+																		<ml:real>1</ml:real>
+																	</ml:apply>
+																</ml:parens>
+																<ml:parens>
+																	<ml:apply>
+																		<ml:minus/>
+																		<ml:apply>
+																			<ml:mult style="auto-select"/>
+																			<ml:real>4</ml:real>
+																			<ml:apply>
+																				<ml:pow/>
+																				<ml:id xml:space="preserve">m</ml:id>
+																				<ml:real>2</ml:real>
+																			</ml:apply>
+																		</ml:apply>
+																		<ml:real>1</ml:real>
+																	</ml:apply>
+																</ml:parens>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:localDefine>
+											<ml:localDefine>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">c</ml:id>
+													<ml:sequence>
+														<ml:id xml:space="preserve">m</ml:id>
+														<ml:apply>
+															<ml:minus/>
+															<ml:id xml:space="preserve">m</ml:id>
+															<ml:real>2</ml:real>
+														</ml:apply>
+													</ml:sequence>
+												</ml:apply>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">c</ml:id>
+													<ml:sequence>
+														<ml:apply>
+															<ml:minus/>
+															<ml:id xml:space="preserve">m</ml:id>
+															<ml:real>2</ml:real>
+														</ml:apply>
+														<ml:id xml:space="preserve">m</ml:id>
+													</ml:sequence>
+												</ml:apply>
+											</ml:localDefine>
+										</ml:program>
+									</ml:ifThen>
+								</ml:program>
+							</ml:for>
+							<ml:id xml:space="preserve">c</ml:id>
+						</ml:program>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="117" left="342" top="1347" width="27.75" height="18.75" align-x="354.75" align-y="1362" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:apply xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:equal/>
+					<ml:id xml:space="preserve">I2</ml:id>
+					<ml:apply>
+						<ml:pow/>
+						<ml:id xml:space="preserve">I</ml:id>
+						<ml:real>2</ml:real>
+					</ml:apply>
+				</ml:apply>
+			</math>
+		</region>
+		<region region-id="86" left="12" top="1610.25" width="397.5" height="12" align-x="39.75" align-y="1620" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the linear integral operator defining the fractional Brownian motion</p>
+			</text>
+		</region>
+		<region region-id="90" left="12" top="1634.25" width="82.5" height="27.75" align-x="45.75" align-y="1650" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">B</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">x</ml:id>
+							<ml:id xml:space="preserve">y</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:div/>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:apply>
+								<ml:id xml:space="preserve">Γ</ml:id>
+								<ml:id xml:space="preserve">x</ml:id>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">Γ</ml:id>
+								<ml:id xml:space="preserve">y</ml:id>
+							</ml:apply>
+						</ml:apply>
+						<ml:apply>
+							<ml:id xml:space="preserve">Γ</ml:id>
+							<ml:apply>
+								<ml:plus/>
+								<ml:id xml:space="preserve">x</ml:id>
+								<ml:id xml:space="preserve">y</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="89" left="12" top="1676.25" width="554.25" height="123.75" align-x="66" align-y="1692" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spKH</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">H</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:ifThen>
+							<ml:apply>
+								<ml:equal/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">spI</ml:id>
+								<ml:id xml:space="preserve">L</ml:id>
+							</ml:apply>
+						</ml:ifThen>
+						<ml:ifThen>
+							<ml:apply>
+								<ml:lessThan/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:sqrt/>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real>2</ml:real>
+													<ml:id xml:space="preserve">H</ml:id>
+												</ml:apply>
+												<ml:apply>
+													<ml:mult/>
+													<ml:parens>
+														<ml:apply>
+															<ml:minus/>
+															<ml:real>1</ml:real>
+															<ml:apply>
+																<ml:mult style="auto-select"/>
+																<ml:real>2</ml:real>
+																<ml:id xml:space="preserve">H</ml:id>
+															</ml:apply>
+														</ml:apply>
+													</ml:parens>
+													<ml:apply>
+														<ml:id xml:space="preserve">B</ml:id>
+														<ml:sequence>
+															<ml:apply>
+																<ml:minus/>
+																<ml:real>1</ml:real>
+																<ml:apply>
+																	<ml:mult style="auto-select"/>
+																	<ml:real>2</ml:real>
+																	<ml:id xml:space="preserve">H</ml:id>
+																</ml:apply>
+															</ml:apply>
+															<ml:apply>
+																<ml:plus/>
+																<ml:id xml:space="preserve">H</ml:id>
+																<ml:apply>
+																	<ml:div/>
+																	<ml:real>1</ml:real>
+																	<ml:real>2</ml:real>
+																</ml:apply>
+															</ml:apply>
+														</ml:sequence>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:id xml:space="preserve">Γ</ml:id>
+											<ml:apply>
+												<ml:plus/>
+												<ml:id xml:space="preserve">H</ml:id>
+												<ml:apply>
+													<ml:div/>
+													<ml:real>1</ml:real>
+													<ml:real>2</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:id xml:space="preserve">spID</ml:id>
+												<ml:sequence>
+													<ml:id xml:space="preserve">L</ml:id>
+													<ml:apply>
+														<ml:mult style="auto-select"/>
+														<ml:real>2</ml:real>
+														<ml:id xml:space="preserve">H</ml:id>
+													</ml:apply>
+												</ml:sequence>
+											</ml:apply>
+											<ml:apply>
+												<ml:id xml:space="preserve">spAtα</ml:id>
+												<ml:sequence>
+													<ml:id xml:space="preserve">L</ml:id>
+													<ml:apply>
+														<ml:minus/>
+														<ml:apply>
+															<ml:div/>
+															<ml:real>1</ml:real>
+															<ml:real>2</ml:real>
+														</ml:apply>
+														<ml:id xml:space="preserve">H</ml:id>
+													</ml:apply>
+												</ml:sequence>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:id xml:space="preserve">spID</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">L</ml:id>
+												<ml:apply>
+													<ml:minus/>
+													<ml:apply>
+														<ml:div/>
+														<ml:real>1</ml:real>
+														<ml:real>2</ml:real>
+													</ml:apply>
+													<ml:id xml:space="preserve">H</ml:id>
+												</ml:apply>
+											</ml:sequence>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:id xml:space="preserve">spAtα</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:apply>
+											<ml:minus/>
+											<ml:id xml:space="preserve">H</ml:id>
+											<ml:apply>
+												<ml:div/>
+												<ml:real>1</ml:real>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:ifThen>
+						<ml:ifThen>
+							<ml:apply>
+								<ml:greaterThan/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:apply>
+													<ml:sqrt/>
+													<ml:apply>
+														<ml:div/>
+														<ml:apply>
+															<ml:mult/>
+															<ml:id xml:space="preserve">H</ml:id>
+															<ml:parens>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:apply>
+																		<ml:mult style="auto-select"/>
+																		<ml:real>2</ml:real>
+																		<ml:id xml:space="preserve">H</ml:id>
+																	</ml:apply>
+																	<ml:real>1</ml:real>
+																</ml:apply>
+															</ml:parens>
+														</ml:apply>
+														<ml:apply>
+															<ml:id xml:space="preserve">B</ml:id>
+															<ml:sequence>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:real>2</ml:real>
+																	<ml:apply>
+																		<ml:mult style="auto-select"/>
+																		<ml:real>2</ml:real>
+																		<ml:id xml:space="preserve">H</ml:id>
+																	</ml:apply>
+																</ml:apply>
+																<ml:apply>
+																	<ml:minus/>
+																	<ml:id xml:space="preserve">H</ml:id>
+																	<ml:apply>
+																		<ml:div/>
+																		<ml:real>1</ml:real>
+																		<ml:real>2</ml:real>
+																	</ml:apply>
+																</ml:apply>
+															</ml:sequence>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+												<ml:apply>
+													<ml:id xml:space="preserve">Γ</ml:id>
+													<ml:apply>
+														<ml:minus/>
+														<ml:id xml:space="preserve">H</ml:id>
+														<ml:apply>
+															<ml:div/>
+															<ml:real>1</ml:real>
+															<ml:real>2</ml:real>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:apply>
+												<ml:id xml:space="preserve">spI</ml:id>
+												<ml:id xml:space="preserve">L</ml:id>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:id xml:space="preserve">spAtα</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">L</ml:id>
+												<ml:apply>
+													<ml:minus/>
+													<ml:id xml:space="preserve">H</ml:id>
+													<ml:apply>
+														<ml:div/>
+														<ml:real>1</ml:real>
+														<ml:real>2</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:sequence>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:id xml:space="preserve">spID</ml:id>
+										<ml:sequence>
+											<ml:id xml:space="preserve">L</ml:id>
+											<ml:apply>
+												<ml:minus/>
+												<ml:id xml:space="preserve">H</ml:id>
+												<ml:apply>
+													<ml:div/>
+													<ml:real>1</ml:real>
+													<ml:real>2</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:sequence>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:id xml:space="preserve">spAtα</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:apply>
+											<ml:minus/>
+											<ml:apply>
+												<ml:div/>
+												<ml:real>1</ml:real>
+												<ml:real>2</ml:real>
+											</ml:apply>
+											<ml:id xml:space="preserve">H</ml:id>
+										</ml:apply>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:ifThen>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="104" left="12" top="1814.25" width="397.5" height="12" align-x="39.75" align-y="1824" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Two-dimensional spectral characteristic of the covariance function</p>
+			</text>
+		</region>
+		<region region-id="119" left="12" top="1839" width="289.5" height="114" align-x="64.5" align-y="1848" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spSH</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:id xml:space="preserve">H</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:program>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">F1</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spF1</ml:id>
+								<ml:id xml:space="preserve">L</ml:id>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">Ft2H</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spFtα</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">L</ml:id>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:real font="0">2</ml:real>
+										<ml:id xml:space="preserve">H</ml:id>
+									</ml:apply>
+								</ml:sequence>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:ifThen>
+							<ml:apply>
+								<ml:equal/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:localDefine>
+								<ml:id xml:space="preserve">I</ml:id>
+								<ml:apply>
+									<ml:id xml:space="preserve">spI2</ml:id>
+									<ml:id xml:space="preserve">L</ml:id>
+								</ml:apply>
+							</ml:localDefine>
+						</ml:ifThen>
+						<ml:otherwise>
+							<ml:localDefine>
+								<ml:id xml:space="preserve">I</ml:id>
+								<ml:apply>
+									<ml:id xml:space="preserve">spID</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:apply>
+											<ml:plus/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:real font="0">2</ml:real>
+												<ml:id xml:space="preserve">H</ml:id>
+											</ml:apply>
+											<ml:real>1</ml:real>
+										</ml:apply>
+									</ml:sequence>
+								</ml:apply>
+							</ml:localDefine>
+						</ml:otherwise>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:minus/>
+									<ml:apply>
+										<ml:plus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:id xml:space="preserve">Ft2H</ml:id>
+											<ml:apply>
+												<ml:transpose/>
+												<ml:id xml:space="preserve">F1</ml:id>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:id xml:space="preserve">F1</ml:id>
+											<ml:apply>
+												<ml:transpose/>
+												<ml:id xml:space="preserve">Ft2H</ml:id>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:id xml:space="preserve">Γ</ml:id>
+											<ml:apply>
+												<ml:plus/>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real font="0">2</ml:real>
+													<ml:id xml:space="preserve">H</ml:id>
+												</ml:apply>
+												<ml:real>1</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:id xml:space="preserve">I</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:id xml:space="preserve">Γ</ml:id>
+										<ml:apply>
+											<ml:plus/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:real font="0">2</ml:real>
+												<ml:id xml:space="preserve">H</ml:id>
+											</ml:apply>
+											<ml:real>1</ml:real>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">I</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:apply>
+							<ml:real>2</ml:real>
+						</ml:apply>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="102" left="12" top="1964.25" width="397.5" height="12" align-x="39.75" align-y="1974" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Spectral characteristic of the Gaussian white noise</p>
+			</text>
+		</region>
+		<region region-id="103" left="12" top="1989" width="114.75" height="12.75" align-x="63.75" align-y="1998" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spGWN</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">L</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:id xml:space="preserve">rnorm</ml:id>
+						<ml:sequence>
+							<ml:id xml:space="preserve">L</ml:id>
+							<ml:real>0</ml:real>
+							<ml:real>1</ml:real>
+						</ml:sequence>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="92" left="12" top="2018.25" width="397.5" height="12" align-x="39.75" align-y="2028" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Hurst index and truncation order</p>
+			</text>
+		</region>
+		<region region-id="91" left="12" top="2043" width="33" height="12.75" align-x="25.5" align-y="2052" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">H</ml:id>
+					<ml:real>0.5</ml:real>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="96" left="12" top="2061" width="29.25" height="12.75" align-x="24" align-y="2070" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">L</ml:id>
+					<ml:real>64</ml:real>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="83" left="12" top="2084.25" width="397.5" height="12" align-x="39.75" align-y="2094" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Simulation of fractional Brownian motion</p>
+			</text>
+		</region>
+		<region region-id="122" left="12" top="2109.75" width="139.5" height="18" align-x="72.75" align-y="2124" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">spInvert</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">t</ml:id>
+							<ml:id xml:space="preserve">F</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult/>
+						<ml:apply>
+							<ml:transpose/>
+							<ml:id xml:space="preserve">F</ml:id>
+						</ml:apply>
+						<ml:apply>
+							<ml:id xml:space="preserve">pt</ml:id>
+							<ml:sequence>
+								<ml:apply>
+									<ml:id xml:space="preserve">rows</ml:id>
+									<ml:id xml:space="preserve">F</ml:id>
+								</ml:apply>
+								<ml:id xml:space="preserve">t</ml:id>
+							</ml:sequence>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="99" left="12" top="2139" width="132.75" height="12.75" align-x="41.25" align-y="2148" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">spBH</ml:id>
+					<ml:apply>
+						<ml:mult/>
+						<ml:apply>
+							<ml:id xml:space="preserve">spKH</ml:id>
+							<ml:sequence>
+								<ml:id xml:space="preserve">L</ml:id>
+								<ml:id xml:space="preserve">H</ml:id>
+							</ml:sequence>
+						</ml:apply>
+						<ml:apply>
+							<ml:id xml:space="preserve">spGWN</ml:id>
+							<ml:id xml:space="preserve">L</ml:id>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="100" left="12" top="2163" width="109.5" height="12.75" align-x="42" align-y="2172" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">BH</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">t</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:id xml:space="preserve">spInvert</ml:id>
+						<ml:sequence>
+							<ml:id xml:space="preserve">t</ml:id>
+							<ml:id xml:space="preserve">spBH</ml:id>
+						</ml:sequence>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="123" left="12" top="2190" width="366.75" height="171.75" align-x="12" align-y="2190" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<plot disable-calc="false" item-idref="2"/>
+		</region>
+		<region region-id="124" left="12" top="2372.25" width="397.5" height="12" align-x="39.75" align-y="2382" show-border="true" show-highlight="true" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit">Approximation errors</p>
+			</text>
+		</region>
+		<region region-id="125" left="12" top="2396.25" width="276" height="33.75" align-x="43.5" align-y="2418" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">N2RH</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:apply>
+							<ml:mult/>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">T</ml:id>
+									<ml:apply>
+										<ml:plus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>4</ml:real>
+											<ml:id xml:space="preserve">H</ml:id>
+										</ml:apply>
+										<ml:real>2</ml:real>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>4</ml:real>
+							</ml:apply>
+							<ml:parens>
+								<ml:apply>
+									<ml:minus/>
+									<ml:apply>
+										<ml:div/>
+										<ml:apply>
+											<ml:plus/>
+											<ml:apply>
+												<ml:mult style="auto-select"/>
+												<ml:real>4</ml:real>
+												<ml:id xml:space="preserve">H</ml:id>
+											</ml:apply>
+											<ml:real>3</ml:real>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult style="auto-select"/>
+											<ml:parens>
+												<ml:apply>
+													<ml:plus/>
+													<ml:apply>
+														<ml:mult style="auto-select"/>
+														<ml:real>2</ml:real>
+														<ml:id xml:space="preserve">H</ml:id>
+													</ml:apply>
+													<ml:real>1</ml:real>
+												</ml:apply>
+											</ml:parens>
+											<ml:parens>
+												<ml:apply>
+													<ml:plus/>
+													<ml:apply>
+														<ml:mult style="auto-select"/>
+														<ml:real>4</ml:real>
+														<ml:id xml:space="preserve">H</ml:id>
+													</ml:apply>
+													<ml:real>1</ml:real>
+												</ml:apply>
+											</ml:parens>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:div/>
+										<ml:apply>
+											<ml:mult style="auto-select"/>
+											<ml:real>4</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:apply>
+													<ml:id xml:space="preserve">Γ</ml:id>
+													<ml:apply>
+														<ml:plus/>
+														<ml:apply>
+															<ml:mult style="auto-select"/>
+															<ml:real font="0">2</ml:real>
+															<ml:id xml:space="preserve">H</ml:id>
+														</ml:apply>
+														<ml:real>1</ml:real>
+													</ml:apply>
+												</ml:apply>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:id xml:space="preserve">Γ</ml:id>
+											<ml:apply>
+												<ml:plus/>
+												<ml:apply>
+													<ml:mult style="auto-select"/>
+													<ml:real>4</ml:real>
+													<ml:id xml:space="preserve">H</ml:id>
+												</ml:apply>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+							</ml:parens>
+						</ml:apply>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:real>0.16666666666666669</ml:real>
+						</result>
+					</ml:eval>
+				</ml:define>
+				<resultFormat numeric-only="true">
+					<general precision="6" show-trailing-zeros="true" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="6"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</resultFormat>
+			</math>
+		</region>
+		<region region-id="133" left="12" top="2445.75" width="83.25" height="18" align-x="46.5" align-y="2460" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:function>
+						<ml:id xml:space="preserve">m2</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">M</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:id xml:space="preserve">tr</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:id xml:space="preserve">M</ml:id>
+							<ml:apply>
+								<ml:transpose/>
+								<ml:id xml:space="preserve">M</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="126" left="12" top="2481" width="33.75" height="12.75" align-x="21" align-y="2490" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">i</ml:id>
+					<ml:range>
+						<ml:real>0</ml:real>
+						<ml:real>6</ml:real>
+					</ml:range>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="142" left="78" top="2475" width="39.75" height="24" align-x="92.25" align-y="2490" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:indexer/>
+						<ml:id xml:space="preserve">L</ml:id>
+						<ml:id xml:space="preserve">i</ml:id>
+					</ml:apply>
+					<ml:apply>
+						<ml:pow/>
+						<ml:real>2</ml:real>
+						<ml:apply>
+							<ml:plus/>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:real>2</ml:real>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="128" left="150" top="2475.75" width="142.5" height="18" align-x="165.75" align-y="2490" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:transpose/>
+						<ml:id xml:space="preserve">L</ml:id>
+					</ml:apply>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="1" cols="7">
+							<ml:real>4</ml:real>
+							<ml:real>8</ml:real>
+							<ml:real>16</ml:real>
+							<ml:real>32</ml:real>
+							<ml:real>64</ml:real>
+							<ml:real>128</ml:real>
+							<ml:real>256</ml:real>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+			</math>
+		</region>
+		<region region-id="131" left="12" top="2511" width="178.5" height="63" align-x="27" align-y="2520" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:indexer/>
+						<ml:id xml:space="preserve">ε</ml:id>
+						<ml:id xml:space="preserve">i</ml:id>
+					</ml:apply>
+					<ml:program>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">A</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spSH</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">H</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:localDefine>
+							<ml:id xml:space="preserve">B</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">spKH</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">L</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">H</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:localDefine>
+						<ml:apply>
+							<ml:sqrt/>
+							<ml:apply>
+								<ml:plus/>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">N2RH</ml:id>
+									<ml:apply>
+										<ml:id xml:space="preserve">m2</ml:id>
+										<ml:id xml:space="preserve">A</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:id xml:space="preserve">m2</ml:id>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">A</ml:id>
+										<ml:apply>
+											<ml:mult/>
+											<ml:id xml:space="preserve">B</ml:id>
+											<ml:apply>
+												<ml:transpose/>
+												<ml:id xml:space="preserve">B</ml:id>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</ml:program>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="132" left="12" top="2583.75" width="316.5" height="18" align-x="28.5" align-y="2598" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:transpose/>
+						<ml:id xml:space="preserve">ε</ml:id>
+					</ml:apply>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="1" cols="7">
+							<ml:real>0.01408590424547527</ml:real>
+							<ml:real>0.0043420842143248118</ml:real>
+							<ml:real>0.0014514537202465676</ml:real>
+							<ml:real>0.00050020512611867571</ml:real>
+							<ml:real>0.00017469814158061679</ml:real>
+							<ml:real>6.1396424080590841E-05</ml:real>
+							<ml:real>2.1642721712910961E-05</ml:real>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+				<resultFormat numeric-only="true">
+					<general precision="6" show-trailing-zeros="true" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="7"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</resultFormat>
+			</math>
+		</region>
+		<region region-id="140" left="12" top="2617.5" width="137.25" height="19.5" align-x="30.75" align-y="2628" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:indexer/>
+						<ml:id xml:space="preserve">ε1</ml:id>
+						<ml:id xml:space="preserve">i</ml:id>
+					</ml:apply>
+					<ml:apply>
+						<ml:sqrt/>
+						<ml:apply>
+							<ml:minus/>
+							<ml:id xml:space="preserve">N2RH</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">m2</ml:id>
+								<ml:apply>
+									<ml:id xml:space="preserve">spSH</ml:id>
+									<ml:sequence>
+										<ml:apply>
+											<ml:indexer/>
+											<ml:id xml:space="preserve">L</ml:id>
+											<ml:id xml:space="preserve">i</ml:id>
+										</ml:apply>
+										<ml:id xml:space="preserve">H</ml:id>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+		</region>
+		<region region-id="141" left="12" top="2643.75" width="320.25" height="18" align-x="32.25" align-y="2658" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:apply>
+						<ml:transpose/>
+						<ml:id xml:space="preserve">ε1</ml:id>
+					</ml:apply>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="1" cols="7">
+							<ml:real>0.013515386004703485</ml:real>
+							<ml:real>0.0042299558559222268</ml:real>
+							<ml:real>0.0014307329139877265</ml:real>
+							<ml:real>0.00049646556601760819</ml:real>
+							<ml:real>0.00017403040425096884</ml:real>
+							<ml:real>6.1277798023068786E-05</ml:real>
+							<ml:real>2.1621699782898686E-05</ml:real>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+				<resultFormat numeric-only="true">
+					<general precision="6" show-trailing-zeros="true" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="7"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</resultFormat>
+			</math>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQwW7CMAyG7aZbS9etu3AhSOUZeIIdENph2iT2ACiUAkVUTF2ROPLm3W8n
+u+w0R3b+Ot/vRsmJiJGfyEy1QS228/W+c1+H9e7cta5PSGKMHGl74XqnLZog07b62Bzrqvet
+ld8omqGYMF+8hWr5yty1+V7q6FjZKfKNA+tjwCKe/r/7OzzpO1fV84XRIxvAkp+JLQ+imG0E
+U8kRWwNryYZtPEgnBkMDxB2Y2wuO7oURV6IMRCqMwCOZI/YMjNofwKg9B6P2R/0XxJMyEIUw
+AvvrFu+Xtu6ayp38g6R67VfklhosE14uC6/5J3IpPwAAAP//AwARvY6sxgEAAA==</item>
+		<item item-id="2" content-encoding="gzip">H4sIAAAAAAAA/1xTT28SURCft8v+ZYFChVoWWSxVb6a+qok9VdIYE9uaoPdmC2vBFMHt1jTx
+QvoBvHn24kcwnvHGye/jCefNLCv1kdmZ+c1v5s17b/AAQKC8QXHJ1vFrRx+70dlw/MEAtR6j
+OP1xj7EcYc8UbdR7ffo+6iWEQJfyNfyaF4NJZ3zF8CGKhUA3Ix6hrKEM8gB/cPcj75+v1ue0
+KQ00nYxKtvnzJImHp5dJJIi5h1KC1ZXb27rhG1Qgl8RR5BMgUQoTMk25+QtgaljyG+p902Zt
+Oaxtl7WTlxpu8gnvxxTGDjyEXXiEAp78+grg2oUCEX54GeEJhnfVFkUqMXVKUvXZKaqTk3ld
+pBbKsvIb43aFKvTLALrWgZcA6/ILNjktwy2KfF/H6xB8f1WuadW4veoG69ptbnNDMcUOwCb5
+PzMf6pxY87mZOkINbqZOhe+wUyWnyWQz4OrNFuvgLnfaUlXfAmzx0VvZJm3OC7Z5kzZC97hu
+m+re5/M0l+d5QBNT6suTszicDE7ejeNRmFh8UjV4BB+EScgPWk8fVmXRsKr3fYpSI1t5bng1
+vHhBdXhYG+olRMqlmZ7NZgt0G8dLFFbRwxsoLPCXFbeSOOxF8kCnkJ8SA7EGwhcLZQk0MCkQ
+mjIWiOgUQiRHCBoGGvP5PBCm8HXKt4Sfo3R7me4IX6N0FzmUnkcOpXvIme5jqKA4KqtIHDRK
+iqPI3G7p+HIUxcNeeM4XYlPbOGDQhyH+9PQf5Ka3+d/yVp2/AAAA//8DAB45GF0tBAAA</item>
+	</binaryContent>
+</worksheet>
